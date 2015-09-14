@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+Form 예제<br>
+<form action ="b.jsp" method="post">
+	이름<input type="text" name="name"><br>
+	암호<input type="password" name="pw"><br>
+	<input type="submit" value="전송">
+</form>
+<br>
+<form action="b.jsp">
+	<input type = "radio" value = "a" name = "size">대
+	<input type = "radio" value = "b" name = "size">중
+	<input type = "radio" value = "c" name = "size">소<br>
+	<input type = "submit" value = "전송">
+</form>
+<br>
+<form action="b.jsp">
+	<input type = "checkbox" value = "java" name = "lang">자바
+	<input type = "checkbox" value = "c" name = "lang">C언어
+	<input type = "checkbox" value = "del" name = "lang">델파이<br>
+	<input type = "submit" value = "전송">
+</form>
+<br>
+<form action="b.jsp">
+	<textarea rows="5" cols="80" name="body"></textarea>
+	<input type="submit" value="전송">
+</form>
+<br>
+<form action="b.jsp">
+	<select name = "job">
+		<option value = "a">학생
+		<option value = "b">회사원
+		<option value = "c">주부
+		<option value = "d">자영업
+		<option value = "e">기타
+	</select>
+	<input type="submit" value="전송">
+</form>
+</body>
+</html>
